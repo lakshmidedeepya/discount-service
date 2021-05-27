@@ -1,0 +1,16 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: discount-service
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+discountdata:
+  map:
+    FURNISHING: 20.0
+    KITCHENELECTRONIC: 30.0
+    TOY: 10.0
+    MOBILEPHONE: 50.0
+    MEDICALEQUIPMENT: 50.0
+    MUSICINSTRUMENT: 70.0
