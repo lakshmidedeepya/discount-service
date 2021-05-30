@@ -10,7 +10,7 @@ import com.sai.discount.config.DiscountConfigMap;
 import com.sai.discount.model.DiscountRequest;
 import com.sai.discount.model.DiscountResponse;
 
-@RestController("/discount")
+@RestController
 @RefreshScope
 public class DiscountController {
 @Autowired
